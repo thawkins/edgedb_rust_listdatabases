@@ -55,9 +55,9 @@ $
 
 ```
 
-It may take a long time the first time you execute it, as it may have to start up the edgedb database if it has not already started, it is a feature of edgedb V2.0 that it will autostart the database server when it is first accessed via its socket. 
+It may take a long time the first time you execute the sample, as it may have to start up the edgedb database if it has not already been started, it is a feature of edgedb V2.0 that it will autostart the database server when it is first accessed via its socket. 
 
-You may get the following error message if that startup takes longer than 30 seconds which is the default timeout value for the client. This should only happen if you are working on a slow machine. 
+Subsequently you may get the following error message if that startup process takes longer than 30 seconds which is the default timeout value for the client. This should only happen if you are working on a slow machine. 
 
 ```
 $./target/debug/edgedb_rust_listdatabases 
