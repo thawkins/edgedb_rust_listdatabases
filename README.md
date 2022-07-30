@@ -4,15 +4,16 @@
 
 This example project is a very simple implementaion of a rust project that connects to and renders data from an edgedb database. 
 
-It is should to be considered a "Hello world" examole for connecting to the DB system in rust. 
+It is should to be considered a "Hello world" example for connecting to the DB system in rust. 
 
 The application is a standalone version of the list-databases example code from the edgedb-client project 
 
 [https://github.com/edgedb/edgedb-rust](https://github.com/edgedb/edgedb-rust)
 
+This code is property of the edgedb team and no rights are reserved by its use here. the sample is a convience for helping others get started. 
 ## Prerequisits
 
-The sample assumes that you have the following items installed
+This sample assumes that you have the following items installed
 
 1. Rust language [Installing Rust](https://www.rust-lang.org/tools/install)
 2. EdgeDb [Installing edgedb](https://www.edgedb.com/install)
@@ -38,7 +39,9 @@ The sample assumes that you have the following items installed
 1. Change to the root of the project
 2. Build with ```cargo build --release```
 
-### Running (debug version)   
+### Running (debug version)  
+After a successfull build you can run the sample by: 
+
 1. Change to the root of the project
 2. execute the command ```./target/debug/edgedb_rust_listdatabases```
 3. The result should be 
