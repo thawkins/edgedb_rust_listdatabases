@@ -1,5 +1,11 @@
 # edgedb-rust simple sample code
 
+```
+Note: This sample is currently using the edgdb-async access mechanism, this mechanism is being depricated, ans you should use the edgedb-tokio client constructor instead.
+
+We will update this sample to match shortly.
+```
+
 ## Overview
 
 This example project is a very simple implementaion of a rust project that connects to and renders data from an edgedb database. 
