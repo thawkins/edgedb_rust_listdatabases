@@ -1,7 +1,7 @@
 # edgedb-rust simple sample code
 
 ```
-Note: This sample is currently using the edgdb-async access mechanism, this mechanism is being depricated, and you should use the edgedb-tokio client constructor instead.
+Note: This sample is currently using the edgdb tokio access mechanism, this mechanism is being depricated, and you should use the edgedb-tokio client constructor instead.
 
 We will update this sample to match shortly.
 ```
